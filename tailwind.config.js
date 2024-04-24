@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+
+const colors = require("tailwindcss/colors");
+
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{js,jsx}',
-    './components/**/*.{js,jsx}',
-    './app/**/*.{js,jsx}',
-    './src/**/*.{js,jsx}',
+    "./pages/**/*.{js,jsx}",
+    "./components/**/*.{js,jsx}",
+    "./app/**/*.{js,jsx}",
+    "./src/**/*.{js,jsx}",
   ],
   prefix: "",
   theme: {
@@ -72,6 +75,16 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
+    colors: {
+      ...colors,
+      custom: {
+        primary: "#171717",
+        secondary: "#fe853a",
+        dark: "#344054",
+        faint: "#99a2b2",
+        light: "#f2f4f7",
+      },
+    },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
