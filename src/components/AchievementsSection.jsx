@@ -5,7 +5,7 @@ import React from "react";
 const AchievementsSection = () => {
   return (
     <section
-      className="pt-36 pb-20 flex items-center text-custom-dark bg-custom-light rounded-[48px] -mx-24 -z-10"
+      className="pt-36 pb-20 flex items-center text-custom-dark bg-custom-light rounded-[48px] -mx-24 z-0"
       id="records"
     >
       <div className="flex-1 flex justify-center relative">
@@ -37,7 +37,7 @@ const AchievementsSection = () => {
         </div>
         <Link
           href={"#portfolio"}
-          className="border border-custom-dark font-bold py-5 px-10 rounded-3xl self-start text-xl hover:bg-custom-light transition-all"
+          className="border border-custom-dark font-bold py-5 px-10 rounded-3xl self-start text-xl hover:bg-custom-dark/5 transition-all"
         >
           Hire me
         </Link>
