@@ -60,11 +60,12 @@ const ServicesSection = () => {
 
   return (
     <section
-      className="text-white bg-custom-primary -mx-24 p-24 rounded-[48px] bg-cover"
+      className="text-white bg-custom-primary -mx-24 px-24 pt-36 pb-20 rounded-[48px] bg-cover"
       style={{ backgroundImage: "url(/images/services-bg.jpg)" }}
+      id="services"
     >
-      <div className="flex items-center justify-between mb-16">
-        <h2 className="text-5xl font-semibold flex-1">
+      <div className="flex items-center justify-between mb-10">
+        <h2 className="text-[42px] font-semibold flex-1">
           My <span className="text-custom-secondary">Services</span>
         </h2>
         <p className="max-w-[520px] flex-1">

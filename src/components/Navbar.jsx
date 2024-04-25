@@ -53,7 +53,7 @@ const Navbar = () => {
   }, [typeof window]);
 
   return (
-    <nav className="flex justify-between mx-auto p-2 sticky top-10 bg-custom-primary rounded-full max-w-[1200px] z-50">
+    <nav className="flex justify-between mx-auto p-2 fixed top-10 left-0 right-0 bg-custom-primary rounded-full max-w-[1200px] z-50">
       {[leftLinks, logoLink, rightLinks].map((side, index) => (
         <ul
           key={index}

@@ -27,7 +27,10 @@ const experienceData = [
 
 const ExperienceSection = () => {
   return (
-    <section className="mt-20 mb-20 flex flex-col items-center gap-20">
+    <section
+      className="mt-36 mb-20 flex flex-col items-center gap-20 scroll-m-36"
+      id="experience"
+    >
       <h2 className="text-5xl font-semibold text-custom-dark">
         My <span className="text-custom-secondary">Work Experience</span>
       </h2>
