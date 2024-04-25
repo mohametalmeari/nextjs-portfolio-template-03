@@ -16,6 +16,7 @@ const HeroSection = () => {
             src={"/objects/obj01.png"}
             width={30}
             height={30}
+            alt="object"
           />
         </span>
         <span className="text-7xl font-semibold mb-2">
@@ -28,6 +29,7 @@ const HeroSection = () => {
             src={"/objects/obj01.png"}
             width={70}
             height={70}
+            alt="object"
           />
         </h1>
       </div>
@@ -44,8 +46,8 @@ const HeroSection = () => {
           <div className="text-custom-secondary flex gap-1 mb-5">
             {Array(5)
               .fill()
-              .map(() => (
-                <StarIcon fill={"#fe853a"} />
+              .map((_, index) => (
+                <StarIcon fill={"#fe853a"} key={index} />
               ))}
           </div>
           <p className="text-4xl font-bold">10 Years</p>
@@ -68,7 +70,12 @@ const HeroSection = () => {
         <div className="bg-custom-secondary w-96 h-96 rounded-se-full " />
       </div>
       <div className="absolute bottom-0 z-[-98] rounded-b-full overflow-hidden">
-        <Image src={"/avatar.png"} width={380} height={500} />
+        <Image
+          src={"/avatar.png"}
+          width={380}
+          height={500}
+          alt="Profile Picture"
+        />
       </div>
     </section>
   );

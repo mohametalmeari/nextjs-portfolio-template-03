@@ -42,12 +42,7 @@ export const ImageFrame = ({ dim = [], src, scale = 1 }) => {
         </pattern>
       </defs>
 
-      <path
-        d={path}
-        fill={`url(#${src})`}
-        stroke="lightblue"
-        stroke-width={0}
-      />
+      <path d={path} fill={`url(#${src})`} stroke="lightblue" strokeWidth={0} />
     </svg>
   );
 };
