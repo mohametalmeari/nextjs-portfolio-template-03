@@ -9,7 +9,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-stretch justify-between p-24">
       <HeroSection />
       <ServicesSection />
       <ExperienceSection />
