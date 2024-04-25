@@ -7,7 +7,7 @@ import React from "react";
 
 const HeroSection = () => {
   return (
-    <section className="flex flex-col items-center text-custom-primary min-h-screen relative pt-20">
+    <section className="flex flex-col items-center text-custom-primary min-h-screen h-[810px] relative pt-20">
       <div className="flex flex-col items-center mb-20">
         <span className="font-semibold rounded-full px-5 py-1 outline outline-2 mb-3 text-lg relative">
           Hello!
