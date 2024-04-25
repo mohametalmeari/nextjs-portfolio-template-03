@@ -5,7 +5,7 @@ import React from "react";
 const AchievementsSection = () => {
   return (
     <section
-      className="pt-36 pb-20 flex items-center text-custom-dark bg-custom-light rounded-[48px] -mx-24"
+      className="pt-36 pb-20 flex items-center text-custom-dark bg-custom-light rounded-[48px] -mx-24 -z-10"
       id="records"
     >
       <div className="flex-1 flex justify-center relative">
