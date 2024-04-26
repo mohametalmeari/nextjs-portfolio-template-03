@@ -81,3 +81,8 @@ body,
     @apply bg-background text-foreground;
   }
 }
+
+.blog--list-disc::marker {
+  color: #fe853a;
+  font-size: 22px;
+}
