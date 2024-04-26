@@ -44,7 +44,7 @@ const BlogSection = () => {
   const [showAll, setShowAll] = useState(false);
   const showedBlogs = showAll ? blogData : blogData.slice(0, 3);
   return (
-    <section className="text-custom-dark mt-20" id="blog">
+    <section className="text-custom-dark mt-20 scroll-m-36" id="blog">
       <div className="flex justify-between items-center mb-10">
         <h2 className="text-4xl font-bold">
           From my <br />

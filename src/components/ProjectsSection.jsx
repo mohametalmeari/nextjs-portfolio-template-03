@@ -71,9 +71,6 @@ const ProjectsSection = () => {
     (project) => project.tag === filter || filter === projectsCategories[0]
   );
 
-  console.log(filteredProjects);
-  console.log(filteredProjects.length);
-
   return (
     <section
       id="portfolio"
@@ -116,6 +113,7 @@ const ProjectsSection = () => {
                   width={500}
                   height={400}
                   className="rounded-2xl object-cover w-full h-full absolute right-0 top-0 -z-10"
+                  alt="Project Image"
                 />
                 <h3 className="text-white z-10 self-end text-5xl font-bold">
                   {project.name}

@@ -15,6 +15,7 @@ const AchievementsSection = () => {
           width={400}
           height={400}
           className="rounded-b-[100px]"
+          alt="Profile Picture"
         />
       </div>
       <div className="flex-1 flex flex-col gap-8">

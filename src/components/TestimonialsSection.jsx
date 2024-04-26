@@ -66,43 +66,6 @@ const TestimonialsSection = () => {
         fugit accusamus atque quidem, soluta error.
       </p>
       <div className="flex justify-center items-stretch gap-5">
-        {/* {current !== 0 ? (
-          <TestimonialCard
-            name={testimonialsData[current - 1].name}
-            image={testimonialsData[current - 1].image}
-            review={testimonialsData[current - 1].review}
-            rating={testimonialsData[current - 1].rating}
-          />
-        ) : (
-          <TestimonialCard
-            name={testimonialsData[testimonialsData.length - 1].name}
-            image={testimonialsData[testimonialsData.length - 1].image}
-            review={testimonialsData[testimonialsData.length - 1].review}
-            rating={testimonialsData[testimonialsData.length - 1].rating}
-          />
-        )}
-        <TestimonialCard
-          name={testimonialsData[current].name}
-          image={testimonialsData[current].image}
-          review={testimonialsData[current].review}
-          rating={testimonialsData[current].rating}
-        />
-        {current < testimonialsData.length - 1 ? (
-          <TestimonialCard
-            name={testimonialsData[current + 1].name}
-            image={testimonialsData[current + 1].image}
-            review={testimonialsData[current + 1].review}
-            rating={testimonialsData[current + 1].rating}
-          />
-        ) : (
-          <TestimonialCard
-            name={testimonialsData[0].name}
-            image={testimonialsData[0].image}
-            review={testimonialsData[0].review}
-            rating={testimonialsData[0].rating}
-          />
-        )} */}
-
         {displayTestimonials.map((testimonial, index) => (
           <TestimonialCard
             key={index}
@@ -118,6 +81,7 @@ const TestimonialsSection = () => {
           .fill()
           .map((_, index) => (
             <div
+              key={index}
               className={cn(
                 "w-3 h-3 bg-custom-faint rounded-full cursor-pointer",
                 current === index
