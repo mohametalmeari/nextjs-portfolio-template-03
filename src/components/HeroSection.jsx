@@ -62,7 +62,7 @@ const HeroSection = () => {
           </Link>
         </div>
         <div className="px-5 py-3 text-xl">
-          <Link href={"#portfolio"}>Hire me</Link>
+          <Link href={"#contact"}>Hire me</Link>
         </div>
       </div>
       <div className="flex absolute bottom-0 z-[-99]">

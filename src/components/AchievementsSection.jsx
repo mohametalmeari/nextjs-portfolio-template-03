@@ -37,7 +37,7 @@ const AchievementsSection = () => {
           </div>
         </div>
         <Link
-          href={"#portfolio"}
+          href={"#contact"}
           className="border border-custom-dark font-bold py-5 px-10 rounded-3xl self-start text-xl hover:bg-custom-dark/5 transition-all"
         >
           Hire me

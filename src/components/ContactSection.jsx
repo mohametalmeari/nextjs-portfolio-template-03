@@ -29,6 +29,7 @@ const ContactSection = () => {
     e.preventDefault();
     const data = {
       email: e.target.email.value,
+      message: "I have a project idea! Please get in touch with me.",
     };
 
     const JSONData = JSON.stringify(data);
@@ -50,7 +51,7 @@ const ContactSection = () => {
 
   return (
     <section
-      className="text-custom-dark mt-20 flex flex-col items-center"
+      className="text-custom-dark mt-20 flex flex-col items-center scroll-m-52"
       id="contact"
     >
       <h2 className="text-5xl font-bold text-center leading-[64px] mb-5">
